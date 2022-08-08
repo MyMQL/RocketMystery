@@ -54,7 +54,7 @@ public class Collision : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "Friendly":
-                Debug.Log("Uderzy³eœ w przyjazny obiekt");
+                
                 break;
             case "Finish":
                 meta();

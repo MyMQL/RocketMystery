@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Friendly
   - Fuel
+  - Gracz
+  - Punkt
   layers:
   - Default
   - TransparentFX

@@ -38,8 +38,9 @@ public class Scorer : MonoBehaviour
     
     void Wynik()
     {
+        if (gameObject.tag != "Punkt")
         score = score + 1;
-  
+        gameObject.tag = "Punkt";
         Debug.Log(score);
     }
 }
