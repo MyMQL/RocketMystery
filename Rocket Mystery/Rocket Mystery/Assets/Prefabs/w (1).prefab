@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 500804317035800363}
   - component: {fileID: 500804317035800362}
   - component: {fileID: 500804317035800361}
-  - component: {fileID: 500804317035800360}
   - component: {fileID: 7937759534031126112}
+  - component: {fileID: 5088933154857413621}
   m_Layer: 0
   m_Name: w (1)
   m_TagString: Untagged
@@ -85,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &500804317035800360
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500804317035800343}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7937759534031126112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1103cf4b88f6047bbd42adc9b646ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 12, y: 0, z: 0}
+  movementVector: {x: -6, y: 12, z: 0}
   movementFactor: 1
   period: 3
+--- !u!135 &5088933154857413621
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500804317035800343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.50000006
+  m_Center: {x: 0, y: 0, z: 0}

@@ -318,14 +318,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: w (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 500804317035800360, guid: 634bd871f03396041819d66371908134, type: 3}
-      propertyPath: m_Center.x
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 500804317035800360, guid: 634bd871f03396041819d66371908134, type: 3}
-      propertyPath: m_Center.y
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 500804317035800363, guid: 634bd871f03396041819d66371908134, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -369,14 +361,6 @@ PrefabInstance:
     - target: {fileID: 500804317035800363, guid: 634bd871f03396041819d66371908134, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7937759534031126112, guid: 634bd871f03396041819d66371908134, type: 3}
-      propertyPath: movementVector.x
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7937759534031126112, guid: 634bd871f03396041819d66371908134, type: 3}
-      propertyPath: movementVector.y
-      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 634bd871f03396041819d66371908134, type: 3}

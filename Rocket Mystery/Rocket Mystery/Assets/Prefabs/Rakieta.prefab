@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 2009881651}
   - component: {fileID: 216400026}
   - component: {fileID: 6142014386461627995}
+  - component: {fileID: 453703317}
   m_Layer: 0
   m_Name: Rakieta
   m_TagString: Untagged
@@ -397,6 +398,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.041991, y: 1.2856482, z: 2.6276426}
   m_Center: {x: 0.059346557, y: -0.036776625, z: -0.0037103891}
+--- !u!114 &453703317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881482327727568562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a667157af2050004ca07b3a23074ecb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
 --- !u!1 &2849744994872706426
 GameObject:
   m_ObjectHideFlags: 0
