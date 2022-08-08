@@ -356,6 +356,7 @@
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/Oscillator.cs"
 "Assets/Scripts/Scorer.cs"
+"Assets/Scripts/Wynik.cs"
 -langversion:9.0
 
 /deterministic

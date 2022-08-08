@@ -7,17 +7,14 @@ public class Scorer : MonoBehaviour
 {
 
     static int score = 0;
-
-    void Start()
-    {
-
-    }
+    public int punkty;
 
     // Update is called once per frame
     void Update()
     {
-
+        punktacja();
     }
+
 
     void OnCollisionEnter(UnityEngine.Collision collision)
     {
@@ -29,7 +26,6 @@ public class Scorer : MonoBehaviour
         if (collision.gameObject.tag == "Untagged")
         {
             score = score - score;
-            Debug.Log(score);
         }
 
 
@@ -41,6 +37,10 @@ public class Scorer : MonoBehaviour
         if (gameObject.tag != "Punkt")
         score = score + 1;
         gameObject.tag = "Punkt";
-        Debug.Log(score);
+    }
+
+    void punktacja()
+    {
+        punkty = score;
     }
 }
