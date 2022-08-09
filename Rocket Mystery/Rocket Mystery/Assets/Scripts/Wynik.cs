@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Wynik : MonoBehaviour
 
 {
+    
+    public TextMeshPro TextMeshProObject;
     Scorer scorer;
     [SerializeField] GameObject Rakieta;
 
@@ -16,9 +19,19 @@ public class Wynik : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
        int punkty = scorer.punkty;
-        Debug.Log(punkty);
+        //Debug.Log(punkty);
+        Zmiana();
+        
+    }
+
+    public void Zmiana()
+    {
+        int wyniki = scorer.punkty;
+        Debug.Log(wyniki);
+        TextMeshProObject = GetComponent<TextMeshPro>();
+        TextMeshProObject.SetText("Hej", wyniki);
     }
 }

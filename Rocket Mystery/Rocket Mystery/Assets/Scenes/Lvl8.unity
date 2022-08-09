@@ -944,6 +944,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1881482327727568562, guid: 73531e12353e3b445ae330ee543de450, type: 3}
   m_PrefabInstance: {fileID: 3078602660943301739}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1298435187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 201573758710007789, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
+  m_PrefabInstance: {fileID: 201573757397951199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1576445968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1221,6 +1232,10 @@ PrefabInstance:
       propertyPath: Rakieta
       value: 
       objectReference: {fileID: 1205820750}
+    - target: {fileID: 201573758710007786, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
+      propertyPath: TextMeshProObject
+      value: 
+      objectReference: {fileID: 1298435187}
     - target: {fileID: 201573758710007787, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1305,9 +1320,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 201573758710007789, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 201573758710007790, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
       propertyPath: m_Name
-      value: Text (TMP)
+      value: Summary
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62d130191a254994ab1e1bcdef802b82, type: 3}
