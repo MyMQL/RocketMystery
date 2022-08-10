@@ -27,7 +27,7 @@ public class Collision : MonoBehaviour
 
     void Update()
     {
-        KlawiszeNaprawy();
+        //KlawiszeNaprawy();
     }
 
     void KlawiszeNaprawy()
@@ -101,7 +101,7 @@ public class Collision : MonoBehaviour
         int nextSceneIndex = currentSceneIndex + 1;
         if (nextSceneIndex == SceneManager.sceneCountInBuildSettings)
         {
-            nextSceneIndex = 0;
+            nextSceneIndex = 1;
         }
         SceneManager.LoadScene(nextSceneIndex);
     }
