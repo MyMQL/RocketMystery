@@ -9,11 +9,12 @@ public class Wynik : MonoBehaviour
 {
     
     public TextMeshPro TextMeshProObject;
+    public TextMeshPro ValueText;
     Scorer scorer;
     [SerializeField] GameObject Rakieta;
 
     // Start is called before the first frame update
-    void Awake()
+    public void Awake()
     {
         scorer = Rakieta.GetComponent<Scorer>();
     }
@@ -32,6 +33,7 @@ public class Wynik : MonoBehaviour
         int wyniki = scorer.punkty;
         Debug.Log(wyniki);
         TextMeshProObject = GetComponent<TextMeshPro>();
-        TextMeshProObject.SetText("Hej", wyniki);
+        ValueText.text = wyniki.ToString();
+        TextMeshProObject.SetText(ValueText.text = wyniki.ToString());
     }
 }

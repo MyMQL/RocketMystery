@@ -25,7 +25,10 @@ public class Scorer : MonoBehaviour
 
         if (collision.gameObject.tag == "Untagged")
         {
-            score = score - score;
+            if (gameObject.tag != "Punkt")
+            {
+                score = score - score;
+            }
         }
 
 

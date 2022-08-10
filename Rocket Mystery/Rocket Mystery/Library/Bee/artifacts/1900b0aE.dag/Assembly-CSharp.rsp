@@ -355,6 +355,7 @@
 "Assets/Scripts/Collision.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/Oscillator.cs"
+"Assets/Scripts/QuitApplication.cs"
 "Assets/Scripts/Scorer.cs"
 "Assets/Scripts/Wynik.cs"
 -langversion:9.0

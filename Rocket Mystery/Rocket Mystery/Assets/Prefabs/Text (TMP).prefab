@@ -185,4 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0be7317882c1ef4eab80fdc4c598bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextMeshProObject: {fileID: 201573758710007789}
+  ValueText: {fileID: 201573758710007789}
   Rakieta: {fileID: 0}
